@@ -84,7 +84,7 @@ def find_available(args):
                             if available_date.value_of_css_property('display') != 'none':
                                 selected_spot = available_date.find_element_by_css_selector('#slot-container-UNATTENDED')
                                 if 'No doorstep delivery' not in selected_spot.text:
-                                    radiobtn=wait(driver,10).until(EC.element_to_be_clickable((By.XPATH,"//span[contains(.,'Soonest available time with all items')]/preceding-sibling::input[1]")))
+                                    radiobtn=wait(driver,10).until(EC.element_to_be_clickable((By.XPATH,"//label[.//span[contains(.,'Soonest available time with all items')]]/input[@name='slotsRadioGroup']")))
                                     driver.execute_script("arguments[0].click();", radiobtn)
                                     free_spaces = driver.find_element_by_css_selector('#success-sub-header')
                                     delivery_date = free_spaces.text
