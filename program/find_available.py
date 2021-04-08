@@ -20,8 +20,8 @@ ROOT_DIR = os.path.dirname(BASE_DIR)
 chromedriver = ROOT_DIR + "/chromedriver"
 
 ## amazon credentials
-#amazon_username = "aospi533@gmail.com"
-#amazon_password = "Bl@zee88"
+#amazon_username = "XXXXX"
+#amazon_password = "XXXXXXX"
 #
 ## twilio configuration
 #to_mobilenumber = "+13475750726"
