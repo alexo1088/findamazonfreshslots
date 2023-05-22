@@ -24,7 +24,7 @@ Pygments==2.3.1
 pyrsistent==0.14.11
 PyVirtualDisplay==0.2.1
 pyzmq==18.0.0
-requests==2.21.0
+requests==2.31.0
 selenium==3.11.0
 six==1.12.0
 terminado==0.8.1
